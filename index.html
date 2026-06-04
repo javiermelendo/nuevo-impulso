@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuevo Impulso Andalucía — Educación que se vive, cultura que se siente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ========== NAVEGACIÓN ========== -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <img src="logo.png" alt="Logo Nuevo Impulso Andalucía" class="nav-logo-img" />
+        <span class="logo-text">Nuevo Impulso <span>Andalucía</span></span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#actividades" class="nav-link">Actividades</a></li>
+        <li><a href="#precios" class="nav-link">Precios</a></li>
+        <li><a href="#equipo" class="nav-link">Equipo</a></li>
+        <li><a href="#contacto" class="nav-link nav-cta">Reservar</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section id="inicio" class="hero">
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <span class="hero-badge">Proyecto educativo andaluz</span>
+      <h1 class="hero-title">Educación que se vive,<br /><em>cultura que se siente</em></h1>
+      <p class="hero-subtitle">
+        Llevamos talleres de cultura, arte, deporte y gastronomía andaluza a los colegios de Andalucía.
+        Una experiencia única dentro del horario lectivo.
+      </p>
+      <div class="hero-buttons">
+        <a href="#actividades" class="btn btn-primary">Ver actividades</a>
+        <a href="#contacto" class="btn btn-white">Contactar</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="146">0</span>
+          <span class="stat-label">Actividades anuales</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="8">0</span>
+          <span class="stat-label">Provincias andaluzas</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span>
+          <span class="stat-label">Tipos de taller</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Descubre más</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ========== NOSOTROS ========== -->
+  <section id="nosotros" class="section">
+    <div class="green-stripe top"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Quiénes somos</span>
+        <h2>Un proyecto nacido en Andalucía,<br />para Andalucía</h2>
+        <p class="section-desc">
+          Somos un equipo de Técnicos Superiores en Enseñanza y Animación Sociodeportiva que cree
+          en una educación más práctica, más cultural y más divertida.
+        </p>
+      </div>
+      <div class="diferenciacion">
+        <h3>¿Por qué somos diferentes?</h3>
+        <div class="dif-grid">
+          <div class="dif-item">
+            <span class="dif-icon">🏫</span>
+            <p>Vamos nosotros al colegio, sin organización extra para el centro</p>
+          </div>
+          <div class="dif-item">
+            <span class="dif-icon">🕐</span>
+            <p>Todo dentro del horario lectivo, sin extraescolares ni traslados</p>
+          </div>
+          <div class="dif-item">
+            <span class="dif-icon">🎭</span>
+            <p>Combinamos cultura, arte, deporte y gastronomía en una sola jornada</p>
+          </div>
+          <div class="dif-item">
+            <span class="dif-icon">👥</span>
+            <p>Adaptamos las actividades a cada colegio, edad y necesidades especiales</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="green-stripe bottom"></div>
+  </section>
+
+  <!-- ========== ACTIVIDADES ========== -->
+  <section id="actividades" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros servicios</span>
+        <h2>Actividades que conectan<br />con la cultura andaluza</h2>
+        <p class="section-desc">
+          Cada taller está diseñado para que los alumnos no solo aprendan, sino que vivan la experiencia.
+        </p>
+      </div>
+      <div class="activities-grid">
+        <div class="activity-card" data-color="terracotta">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=360&fit=crop&q=80" alt="Taller de pintura" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🎨</div>
+            <h3>Taller de Pintura Andaluza</h3>
+            <p>Los alumnos aprenden sobre azulejos, patios y mosaicos típicos, y realizan su propia creación para llevar al aula.</p>
+            <span class="activity-tag">Arte</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="red">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1547153760-18fc86324498?w=600&h=360&fit=crop&q=80" alt="Flamenco" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">💃</div>
+            <h3>Actividad de Flamenco</h3>
+            <p>Introducción sencilla y divertida al flamenco: el compás, las palmas y pasos básicos de baile con ritmo.</p>
+            <span class="activity-tag">Cultura</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="green">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1503095396549-807759245b35?w=600&h=360&fit=crop&q=80" alt="Teatro" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🎭</div>
+            <h3>Teatro y Leyendas Andaluzas</h3>
+            <p>Historias y leyendas de Andalucía (el lagarto de Jaén, la reina Mora) que los alumnos recrean en pequeños grupos.</p>
+            <span class="activity-tag">Arte</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="blue">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1566140967404-b8b3932483f5?w=600&h=360&fit=crop&q=80" alt="Juegos tradicionales" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🤸</div>
+            <h3>Juegos Tradicionales Andaluces</h3>
+            <p>Carrera de sacos, el pañuelo, comba, soga y petanca. Se explica el origen de cada juego y después se practica.</p>
+            <span class="activity-tag">Deporte</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="orange">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=600&h=360&fit=crop&q=80" alt="Circuito deportivo" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🏃</div>
+            <h3>Circuito Deportivo Andaluz</h3>
+            <p>Estaciones inspiradas en la feria, los rocieros y elementos andaluces. Trabajan en equipo, se mueven y disfrutan.</p>
+            <span class="activity-tag">Deporte</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="yellow">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=600&h=360&fit=crop&q=80" alt="Taller gastronómico" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🍽️</div>
+            <h3>Taller Gastronómico</h3>
+            <p>Aceite de oliva, pan cateto, salmorejo... Los alumnos conocen los productos típicos, su origen y los degustan.</p>
+            <span class="activity-tag">Gastronomía</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="purple">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=600&h=360&fit=crop&q=80" alt="Gymkhana cultural" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🧩</div>
+            <h3>Gymkhana Cultural</h3>
+            <p>Pruebas sobre Andalucía: acertijos de ciudades, minijuegos de baile, pruebas de olor y sabor, preguntas de monumentos.</p>
+            <span class="activity-tag">Cultura</span>
+          </div>
+        </div>
+        <div class="activity-card" data-color="teal">
+          <img class="activity-img" src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=600&h=360&fit=crop&q=80" alt="Dinámicas de convivencia" loading="lazy" />
+          <div class="activity-body">
+            <div class="activity-icon">🤝</div>
+            <h3>Dinámicas de Convivencia</h3>
+            <p>Juegos que refuerzan el respeto, la cooperación y la inclusión, relacionados con la identidad y cultura andaluza.</p>
+            <span class="activity-tag">Valores</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="jornada-box">
+        <h3>¿Cómo es una Jornada Completa?</h3>
+        <div class="horario-grid">
+          <div class="horario-item"><span class="hora">08:00</span><p>Llegada, descarga y montaje de estaciones</p></div>
+          <div class="horario-item"><span class="hora">09:00</span><p>Bienvenida animada y división en grupos de colores</p></div>
+          <div class="horario-item"><span class="hora">09:30</span><p>Rotación 1 — Primeras actividades</p></div>
+          <div class="horario-item"><span class="hora">10:15</span><p>Rotación 2 — Cambio de estaciones</p></div>
+          <div class="horario-item"><span class="hora">11:00</span><p>Recreo con desayuno andaluz (pan con aceite, fruta)</p></div>
+          <div class="horario-item"><span class="hora">11:45</span><p>Rotación 3 — Continuamos con las estaciones</p></div>
+          <div class="horario-item"><span class="hora">12:30</span><p>Rotación 4 — Último cambio de actividad</p></div>
+          <div class="horario-item"><span class="hora">13:15</span><p>Gymkhana final, baile, diploma y despedida</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PRECIOS ========== -->
+  <section id="precios" class="section">
+    <div class="green-stripe top"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tarifas</span>
+        <h2>Precios claros,<br />sin sorpresas</h2>
+        <p class="section-desc">Todos los precios incluyen materiales, desplazamiento, montaje y personal especializado.</p>
+      </div>
+
+      <div class="pricing-tabs">
+        <button class="tab-btn active" data-tab="jornadas">Jornadas</button>
+        <button class="tab-btn" data-tab="talleres">Talleres individuales</button>
+        <button class="tab-btn" data-tab="descuentos">Descuentos</button>
+      </div>
+
+      <div class="tab-content active" id="tab-jornadas">
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="price-badge">Media Jornada</div>
+            <div class="price-duration">2 h 30 min · 2-3 actividades a elegir</div>
+            <div class="price-options">
+              <div class="price-row"><span>Hasta 60 alumnos</span><strong>450 €</strong></div>
+              <div class="price-row"><span>60 – 100 alumnos</span><strong>600 €</strong></div>
+              <div class="price-row"><span>100 – 120 alumnos</span><strong>750 €</strong></div>
+            </div>
+            <a href="#contacto" class="btn btn-outline full-width">Reservar</a>
+          </div>
+          <div class="price-card featured">
+            <div class="price-featured-label">Más popular</div>
+            <div class="price-badge">Jornada Completa</div>
+            <div class="price-duration">Día completo · Todas las actividades</div>
+            <div class="price-options">
+              <div class="price-row"><span>Hasta 60 alumnos</span><strong>890 €</strong></div>
+              <div class="price-row"><span>60 – 100 alumnos</span><strong>1.150 €</strong></div>
+            </div>
+            <a href="#contacto" class="btn btn-white full-width">Reservar</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-talleres">
+        <div class="talleres-table-wrap">
+          <table class="talleres-table">
+            <thead>
+              <tr>
+                <th>Taller (1 h 30 min)</th>
+                <th>Hasta 30 alumnos</th>
+                <th>30 – 60 alumnos</th>
+                <th>60 – 90 alumnos</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>🎨 Taller artístico</td><td>180 €</td><td>240 €</td><td>320 €</td></tr>
+              <tr><td>💃 Taller flamenco</td><td>190 €</td><td>260 €</td><td>340 €</td></tr>
+              <tr><td>🏃 Circuito deportivo</td><td>170 €</td><td>240 €</td><td>330 €</td></tr>
+              <tr><td>🧩 Gymkhana cultural y juegos</td><td>170 €</td><td>240 €</td><td>330 €</td></tr>
+              <tr><td>🍽️ Taller gastronómico</td><td>240 €</td><td>320 €</td><td>420 €</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="tab-content" id="tab-descuentos">
+        <div class="descuentos-grid">
+          <div class="descuento-card">
+            <div class="descuento-pct">10%</div>
+            <h4>2 jornadas en el mismo curso</h4>
+            <p>Descuento al contratar dos jornadas en el mismo curso escolar.</p>
+          </div>
+          <div class="descuento-card">
+            <div class="descuento-pct">20%</div>
+            <h4>Programa completo por etapa</h4>
+            <p>Descuento por contratar el programa para toda una etapa educativa (1.º – 6.º Primaria o 1.º – 4.º ESO).</p>
+          </div>
+        </div>
+        <div class="condiciones-box">
+          <h4>Condiciones de pago</h4>
+          <ul>
+            <li>Reserva con el <strong>20 % del total</strong>, que se descuenta del precio final.</li>
+            <li>El resto puede pagarse el día de la actividad o en los <strong>15 días posteriores</strong>.</li>
+            <li>Cancelación con +7 días → <strong>devolución total</strong>.</li>
+            <li>Cancelación 3-7 días → <strong>devolución del 50 %</strong>.</li>
+            <li>Cancelación &lt;72 horas → <strong>sin devolución de reserva</strong>.</li>
+            <li>Cancelación por <strong>fuerza mayor</strong> → cambio de fecha sin coste.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="green-stripe bottom"></div>
+  </section>
+
+  <!-- ========== EQUIPO ========== -->
+  <section id="equipo" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestro equipo</span>
+        <h2>Los cuatro pilares de<br />Nuevo Impulso Andalucía</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-avatar" data-initials="JM"></div>
+          <h3>Javier Melendo</h3>
+          <span class="team-role">Coordinador General</span>
+          <p>TSEAS – CAFYD · Inglés B1</p>
+          <ul class="team-tasks">
+            <li>Organización de jornadas</li>
+            <li>Planificación de actividades</li>
+            <li>Coordinación con centros</li>
+            <li>Supervisión del equipo</li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" data-initials="RA"></div>
+          <h3>Rafael Alcántara</h3>
+          <span class="team-role">Coord. Deportivo</span>
+          <p>TSEAS · Inglés B1</p>
+          <ul class="team-tasks">
+            <li>Diseño de talleres deportivos</li>
+            <li>Juegos cooperativos</li>
+            <li>Preparación de material</li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" data-initials="AR"></div>
+          <h3>Álvaro Romero</h3>
+          <span class="team-role">Coord. Comunicación y Gastronomía</span>
+          <p>TSEAS – CAFYD · Alemán B2</p>
+          <ul class="team-tasks">
+            <li>Talleres de gastronomía</li>
+            <li>Redes sociales</li>
+            <li>Contacto con centros</li>
+          </ul>
+        </div>
+        <div class="team-card">
+          <div class="team-avatar" data-initials="MC"></div>
+          <h3>Miguel Ángel Carrillo</h3>
+          <span class="team-role">Coord. Cultura y Arte</span>
+          <p>TSEAS · Francés B1</p>
+          <ul class="team-tasks">
+            <li>Talleres artísticos y culturales</li>
+            <li>Flamenco y música andaluza</li>
+            <li>Arte andaluz</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CONTACTO ========== -->
+  <section id="contacto" class="section contacto-section">
+    <div class="green-stripe top"></div>
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contacto</span>
+        <h2>¿Quieres llevar Nuevo Impulso<br />a tu colegio?</h2>
+        <p class="section-desc">Escríbenos y te enviamos toda la información. La reserva es fácil y rápida.</p>
+      </div>
+      <div class="contacto-grid">
+        <div class="contacto-info">
+          <h3>Encuéntranos también en</h3>
+          <div class="social-links">
+            <a href="https://sites.google.com/view/nuevoimpulsoandalucia" target="_blank" class="social-link">
+              <span class="social-icon">🌐</span>
+              <div>
+                <strong>Web oficial</strong>
+                <small>sites.google.com/view/nuevoimpulsoandalucia</small>
+              </div>
+            </a>
+            <a href="https://www.instagram.com/nuevoimpulso_.andalucia" target="_blank" class="social-link">
+              <span class="social-icon">📸</span>
+              <div>
+                <strong>Instagram</strong>
+                <small>@nuevoimpulso_.andalucia</small>
+              </div>
+            </a>
+            <a href="https://tiktok.com/@nuevoimpulso.and" target="_blank" class="social-link">
+              <span class="social-icon">🎵</span>
+              <div>
+                <strong>TikTok</strong>
+                <small>@nuevoimpulso.and</small>
+              </div>
+            </a>
+          </div>
+
+          <div class="info-cards">
+            <div class="info-card">
+              <span>📍</span>
+              <p>Andalucía — disponibles en todas las provincias</p>
+            </div>
+            <div class="info-card">
+              <span>⏱️</span>
+              <p>Respondemos en menos de 24 horas laborables</p>
+            </div>
+            <div class="info-card">
+              <span>✅</span>
+              <p>Reserva con solo el 20 % del total</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="contacto-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre del responsable *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Ej: María García" required />
+            </div>
+            <div class="form-group">
+              <label for="cargo">Cargo *</label>
+              <input type="text" id="cargo" name="cargo" placeholder="Director/a, Jefe de Estudios..." required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="colegio">Centro educativo *</label>
+              <input type="text" id="colegio" name="colegio" placeholder="Nombre del colegio o instituto" required />
+            </div>
+            <div class="form-group">
+              <label for="provincia">Provincia *</label>
+              <select id="provincia" name="provincia" required>
+                <option value="">Selecciona provincia...</option>
+                <option>Sevilla</option><option>Córdoba</option><option>Málaga</option>
+                <option>Cádiz</option><option>Jaén</option><option>Granada</option>
+                <option>Almería</option><option>Huelva</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Correo electrónico *</label>
+              <input type="email" id="email" name="email" placeholder="correo@colegio.es" required />
+            </div>
+            <div class="form-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="600 000 000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="actividad">Actividad de interés</label>
+            <select id="actividad" name="actividad">
+              <option value="">¿Qué te interesa?</option>
+              <option>Media Jornada</option>
+              <option>Jornada Completa</option>
+              <option>Taller individual — Flamenco</option>
+              <option>Taller individual — Artístico</option>
+              <option>Taller individual — Gastronomía</option>
+              <option>Taller individual — Deportivo</option>
+              <option>Taller individual — Gymkhana Cultural</option>
+              <option>Aún no lo sé, necesito información</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="alumnos">Número aproximado de alumnos</label>
+            <input type="number" id="alumnos" name="alumnos" placeholder="Ej: 80" min="1" max="300" />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje o consulta</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos cualquier detalle, fechas tentativas o preguntas que tengas..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Enviar solicitud</button>
+          <p class="form-note">* Campos obligatorios. Tu información no se comparte con terceros.</p>
+        </form>
+      </div>
+    </div>
+    <div class="green-stripe bottom"></div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-pattern"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="nav-logo footer-logo">
+            <img src="logo.png" alt="Logo Nuevo Impulso Andalucía" class="nav-logo-img footer-logo-img" />
+            <span class="logo-text">Nuevo Impulso <span>Andalucía</span></span>
+          </a>
+          <p>Educación que se vive, cultura que se siente.</p>
+          <p class="footer-legal">Sociedad Limitada (S.L.) · Andalucía, España</p>
+        </div>
+        <div class="footer-links">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#actividades">Actividades</a></li>
+            <li><a href="#precios">Precios</a></li>
+            <li><a href="#equipo">Equipo</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Actividades</h4>
+          <ul>
+            <li><a href="#actividades">Taller de Pintura</a></li>
+            <li><a href="#actividades">Flamenco</a></li>
+            <li><a href="#actividades">Teatro y Leyendas</a></li>
+            <li><a href="#actividades">Juegos Tradicionales</a></li>
+            <li><a href="#actividades">Taller Gastronómico</a></li>
+            <li><a href="#actividades">Gymkhana Cultural</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Síguenos</h4>
+          <div class="footer-social-icons">
+            <a href="https://www.instagram.com/nuevoimpulso_.andalucia" target="_blank" class="footer-social-btn">📸 Instagram</a>
+            <a href="https://tiktok.com/@nuevoimpulso.and" target="_blank" class="footer-social-btn">🎵 TikTok</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Nuevo Impulso Andalucía S.L. · Proyecto Intermodular 2º TSEAS A</p>
+        <p>Tutor: Sergio Díaz Morales</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== BOTÓN VOLVER ARRIBA ========== -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <!-- ========== TOAST ========== -->
+  <div class="toast" id="toast">¡Solicitud enviada! Nos pondremos en contacto contigo pronto. 🎉</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
