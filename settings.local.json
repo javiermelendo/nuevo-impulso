@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(dir \"c:\\\\Users\\\\javie\\\\Downloads\\\\Nuevo impulso\" /b)",
-      "PowerShell(Get-ChildItem \"c:\\\\Users\\\\javie\\\\Downloads\\\\Nuevo impulso\" | Where-Object { $_.Extension -match \"\\\\.\\(png|jpg|jpeg|webp|gif|svg\\)$\" } | Select-Object Name)"
-    ]
-  }
-}
